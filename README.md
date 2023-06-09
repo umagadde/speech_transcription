@@ -1,8 +1,8 @@
-Real_Time Speech Transcription
+# Real_Time Speech Transcription
 
 'app.py' in this repository is a python source code to trnscribe the audio from the microphone for 5 sces since the button is clicked. This code utilizes Streamlit and SpeechRecognition libraries and Hugging Face API to transcribe the speech.
 
-Instructions To Setup:
+# Instructions To Setup:
 
 i. Clone the reository and install the required python packages mentioned in 'requirements.txt'
 
@@ -17,7 +17,7 @@ v. As soon as you click the button 'Recording.....' is displayed. The recording 
 
 vi. You can change the recording time by changing the value of duration in line 60 of code to the required value.
 
-Note:
+# Note:
 
 -->Accuracy of the transcription depends on HuggingFace API
 -->Cannot stop recording by clicking the button. Recording automatically stops after specified duration. You can always change it to the desired value by changing the value of duaration in line 60.
